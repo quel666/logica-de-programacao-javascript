@@ -1,5 +1,5 @@
-var valor = Number (prompt("Digite o primeiro valor"))
+var dolar= Number (prompt("Digite o primeiro valor"))
 
-var resultado = valor * 5.76
+var resultado = dolar * 5.30
 
 alert (`A converção de dolar em reais é ${resultado}`)

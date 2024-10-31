@@ -1,6 +1,6 @@
-var valor1 = Number (prompt("Digite a largura do retangulo"))
-var valor2 = Number (prompt("Digite a altura do retangulo"))
+var largura = Number (prompt("Digite a largura do retangulo"))
+var altura= Number (prompt("Digite a altura do retangulo"))
 
-var resultado = valor1 * valor2
+var area = largura * altura
 
-alert (`A area do retangulo é ${resultado}`)
+alert (`A area do retangulo é ${area}²`)

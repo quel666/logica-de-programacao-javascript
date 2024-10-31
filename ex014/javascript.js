@@ -1,5 +1,5 @@
-var valor = Number (prompt("Digite o lado do quadrado"))
-var resultado = valor * valor
+var lado = Number (prompt("Digite o lado do quadrado"))
+var resultado = lado * lado
 
 
-alert (`A area do quadrado é ${resultado}`)
+alert (`A area do quadrado é ${resultado}²`)
