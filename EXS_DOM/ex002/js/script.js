@@ -35,7 +35,7 @@ function comprar_banana (){
 function comprar_maca (){
     var resultado = 0
     alert ("O KG da maça é R$8,55, apartir de 2KG sai por R$6,99")
-    var qt_maca = Number (prompt("Quantas maça você deseja comprar?"))
+    var qt_maca = Number (prompt("Quantas maças você deseja comprar?"))
 
     if (qt_maca <= 1) {
         resultado = qt_maca * 8.55 
@@ -55,7 +55,13 @@ function comprar_maca (){
 }
 
 function comprar_manga (){
-    
+    var tipo_manga = Number (prompt(`
+        O KG da manga
+        [1] Palmer R$5,49
+        [2] Rosa R$10,00
+        [3] Tommy R$2,99`))
+
+    var qt_manga = Number (prompt("Quantos KG de manga você deseja?"))
 }
 
 switch (inicio_programa) {
